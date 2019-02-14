@@ -35,6 +35,7 @@ header{
 }
 .section-1{
 	background-color: #E6E6E6;
+	/*position: relative;*/
 }
 .banner{
 	position: relative;
@@ -46,10 +47,54 @@ header{
 	position: absolute;
 	right: 200px;
 	top: 530px;
+	color: #fff;
 }
 .logo3{
 	position: absolute;
 	width: 440px;
 	left: 180px;
 	top: 400px;
+}
+.section-2{
+	background-color: #363E97;
+	height: 500px;
+	position: relative;
+}
+h3{
+	font-size: 24px;
+	display: inline-block;
+	color: #fff;
+}
+.divblock{
+	height: 20px;
+	width: 2px;
+	margin: 0 20px 0 20px;
+	background-color: #fff;
+}
+.divblock2{
+	position: absolute;
+	top: 40px;
+	left: 140px;
+}
+.div1{
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	left: 140px;
+	bottom: 100px;
+}
+.div2{
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	right: 140px;
+	bottom: 100px;
+}
+.text{
+	font-size: 16px;
+	position: absolute;
 }
