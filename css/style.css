@@ -8,7 +8,7 @@ header{
 	margin-left: 70px;
 }
 .navigation{
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-right: 80px;
 }
 .navigation-li{
@@ -30,6 +30,26 @@ header{
 .clear{
 	clear: both;
 }
-body{
-	height: 1800px;
+.section-0{
+	height: 100px;
+}
+.section-1{
+	background-color: #E6E6E6;
+}
+.banner{
+	position: relative;
+	width: 1171px;
+	margin: 30px 140px;
+}
+.logohtml{
+	width: 100px;
+	position: absolute;
+	right: 200px;
+	top: 530px;
+}
+.logo3{
+	position: absolute;
+	width: 440px;
+	left: 180px;
+	top: 400px;
 }
