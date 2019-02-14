@@ -1,11 +1,15 @@
+header{
+	position: fixed;
+	width: 100%;
+	padding: 20px;
+}
 .logo-html{
 	height: 60px;
-	margin-top: 20px;
-	margin-left: 90px;
+	margin-left: 70px;
 }
 .navigation{
-	margin-top: 40px;
-	margin-right: 100px;
+	margin-top: 20px;
+	margin-right: 80px;
 }
 .navigation-li{
 	display: inline-block;
@@ -25,4 +29,7 @@
 }
 .clear{
 	clear: both;
+}
+body{
+	height: 1800px;
 }
