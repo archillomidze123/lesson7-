@@ -1,0 +1,28 @@
+.logo-html{
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+.navigation{
+	margin-top: 40px;
+	margin-right: 100px;
+}
+.navigation-li{
+	display: inline-block;
+		font-size: 28px;
+}
+.disply-inline-block{
+	display: inline-block;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.navigation-a{
+	margin-left: 12px;
+}
+.clear{
+	clear: both;
+}
