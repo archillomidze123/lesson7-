@@ -30,7 +30,7 @@ header{
 .clear{
 	clear: both;
 }
-.section-0{
+.section-a{
 	height: 100px;
 }
 .section-1{
@@ -138,4 +138,64 @@ h3{
 }
 .boxis{
 	margin-left: 135px;
+}
+.section-4{
+	width: 100%;
+	height: 345px;
+	background-color: #E6E6E6;
+}
+.wrapper{
+	width: 1174px;
+	margin: 30px auto;
+}
+.child{
+	background-color: #F2F2F2;
+	width: 570px;
+	height: 225px;
+	margin-right: 30px;
+	padding: 20px;
+	position: relative;
+}
+.read{
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+}
+.child-1{
+	background-color: #F2F2F2;
+	width: 570px;
+	height: 225px;
+	padding: 20px;
+	position: relative;
+}
+.taz img{
+	height: 130px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.taz-1 img{
+	height: 130px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.section-4 h3{
+	font-size: 24px;
+	margin-left: 145px;
+	margin-top: 20px;
+	color: #000000;
+}
+h4{
+	font-size: 20px;
+}
+.taz p{
+	font-size: 20px;
+	width: 340px;
+	display: inline-block;
+}
+.taz-1 p{
+	font-size: 20px;
+	width: 340px;
+	display: inline-block;
 }
