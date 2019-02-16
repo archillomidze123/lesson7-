@@ -199,3 +199,15 @@ h4{
 	width: 340px;
 	display: inline-block;
 }
+footer{
+	width: 100%;
+	height: 60px;
+}
+.ppp{
+	margin-left: 145px;
+	margin-top: 20px;
+}
+.footp{
+	margin-right: 145px;
+	margin-top: 20px;
+}
