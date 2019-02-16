@@ -5,11 +5,11 @@ header{
 }
 .logo-html{
 	height: 60px;
-	margin-left: 70px;
+	margin-left: 120px;
 }
 .navigation{
 	margin-top: 15px;
-	margin-right: 80px;
+	margin-right: 135px;
 }
 .navigation-li{
 	display: inline-block;
@@ -84,6 +84,7 @@ h3{
 	top: 100px;
 	left: 140px;
 	bottom: 100px;
+	background-color: #F2F2F2;
 }
 .div2{
 	width: 570px;
@@ -93,8 +94,48 @@ h3{
 	top: 100px;
 	right: 140px;
 	bottom: 100px;
+	background-color: #F2F2F2;
 }
 .text{
 	font-size: 16px;
 	position: absolute;
+	top: 155px;
+	left: 130px;
+}
+.section-3{
+	height: 450px;
+	background-color: #BDCCD4;
+	width: 100%;
+}
+.section-3 h3{
+	color: #3D58A6;
+	margin-top: 40px;
+	margin-bottom: 36px;
+	margin-left: 135px;
+}
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+}
+.box{
+	margin-right: 30px;
+	/*margin-left: 30px;*/
+}
+.box img{
+	display: block;
+}
+.box div{
+	background-color: #E6E6E6;
+	height: 60px;
+	position: relative;
+}
+.box p{
+	position: absolute;
+	font-size: 22px;
+	top: 20px;
+}
+.boxis{
+	margin-left: 135px;
 }
