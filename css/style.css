@@ -2,6 +2,7 @@ header{
 	position: fixed;
 	width: 100%;
 	padding: 20px;
+	z-index: 15;
 }
 .logo-html{
 	height: 60px;
@@ -106,13 +107,16 @@ h3{
 	height: 450px;
 	background-color: #BDCCD4;
 	width: 100%;
+	position: relative;
 }
 .section-3 h3{
 	color: #3D58A6;
-	margin-top: 40px;
+	/*margin-top: 40px;
 	margin-bottom: 36px;
-	margin-left: 135px;
-	position: relative;
+	margin-left: 135px;*/
+	position: absolute;
+	left: 135px;
+	top: 50px;
 }
 .absolute{
 	position: absolute;
@@ -139,6 +143,9 @@ h3{
 }
 .boxis{
 	margin-left: 135px;
+	/*margin-top: 70px*/;
+	position: absolute;
+	top: 120px;
 }
 .section-4{
 	width: 100%;
@@ -213,10 +220,13 @@ footer{
 	margin-top: 20px;
 }
 div.sticky {
-	position: absolute;
+	/*position: absolute;*/
   position: sticky;
-  top: 340px;
+  top: 640px;
  }
  .sticky img{
  	height: 60px;
+ 	margin-left: 20px;
+ 	position: absolute;
+ 	z-index: 20;
  }
