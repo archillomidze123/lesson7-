@@ -2,8 +2,19 @@ header{
 	position: fixed;
 	width: 100%;
 	padding: 20px;
-	z-index: 15;
+	z-index: 1;
 }
+div.sticky {
+	/*position: absolute;*/
+  position: sticky;
+  top: 640px;
+ }
+ .sticky img{
+ 	height: 60px;
+ 	margin-left: 20px;
+ 	position: absolute;
+ 	z-index: 20;
+ }
 .logo-html{
 	height: 60px;
 	margin-left: 120px;
@@ -27,6 +38,8 @@ header{
 }
 .navigation-a{
 	margin-left: 12px;
+	font-family: 'Roboto', sans-serif;
+	color: #3D58A6;
 }
 .clear{
 	clear: both;
@@ -219,14 +232,3 @@ footer{
 	margin-right: 145px;
 	margin-top: 20px;
 }
-div.sticky {
-	/*position: absolute;*/
-  position: sticky;
-  top: 640px;
- }
- .sticky img{
- 	height: 60px;
- 	margin-left: 20px;
- 	position: absolute;
- 	z-index: 20;
- }
