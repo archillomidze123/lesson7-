@@ -3,11 +3,13 @@ header{
 	width: 100%;
 	padding: 20px;
 	z-index: 1;
+	background-color: white;
 }
 div.sticky {
 	/*position: absolute;*/
   position: sticky;
   top: 640px;
+  z-index: 199999999;
  }
  .sticky img{
  	height: 60px;
